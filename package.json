@@ -3,7 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
   "dependencies": {
     "http-server": "^0.11.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
   }
 }
